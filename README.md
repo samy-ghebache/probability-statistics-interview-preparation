@@ -9,3 +9,5 @@
 The course consists of approximately 20 hours total, divided equally between probability and statistics:[1]
 - 10 hours on Probability (introductory + advanced topics)
 - 10 hours on Statistics (introductory + advanced topics)
+
+[Playlist](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR3sNYvfgiKgcStwuPSts9V)
