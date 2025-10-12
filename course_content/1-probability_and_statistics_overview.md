@@ -75,9 +75,7 @@ One of the most important topics in probability and the cornerstone of statistic
 
 For random variables $X_i$ where $i = 1$ to $n$, the sample mean:
 
-$
-\bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i
-$
+$\bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i$
 
 tends to be normally distributed with some mean and variance, even if the original data had Poisson, binomial, exponential, or other distributions. This explains why Gaussian measurement error is so common and is fundamental to statistical inference. 
 
