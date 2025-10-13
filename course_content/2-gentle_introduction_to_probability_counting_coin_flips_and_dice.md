@@ -4,9 +4,7 @@
 
 Probability calculates how likely an event is to happen. The fundamental formula is:
 
-$
-P(A) = \frac{\text{Number of ways A can happen}}{\text{Total number of things that can happen}}
-$
+$P(A) = \frac{\text{Number of ways A can happen}}{\text{Total number of things that can happen}}$
 
 where $A$ represents a specific event.
 
@@ -27,9 +25,7 @@ Total possible outcomes: 4
 **Favorable outcomes:** HH, HT, TH (excludes TT)
 
 **Calculation:**
-$
-P(A) = \frac{3}{4} = 0.75 = 75\%
-$
+$P(A) = \frac{3}{4} = 0.75 = 75\%$
 
 Three out of four outcomes contain at least one heads.
 
@@ -38,9 +34,7 @@ Three out of four outcomes contain at least one heads.
 **Favorable outcomes:** TT only
 
 **Calculation:**
-$
-P(B) = \frac{1}{4} = 0.25 = 25\%
-$
+$P(B) = \frac{1}{4} = 0.25 = 25\%$
 
 Only one outcome has no heads.
 
@@ -64,21 +58,15 @@ Favorable outcomes:
 Total favorable outcomes: 11
 
 **Calculation:**
-$
-P(\text{at least one 5}) = \frac{11}{36}
-$
+$P(\text{at least one 5}) = \frac{11}{36}$
 
 This is just under one in three chances.
 
 **Method 2: Probabilistic Reasoning**
 
-$
-P(A) = P(D_1 = 5) + P(D_1 \neq 5) \times P(D_2 = 5)
-$
+$P(A) = P(D_1 = 5) + P(D_1 \neq 5) \times P(D_2 = 5)$
 
-$
-P(A) = \frac{1}{6} + \frac{5}{6} \times \frac{1}{6} = \frac{6}{36} + \frac{5}{36} = \frac{11}{36}
-$
+$P(A) = \frac{1}{6} + \frac{5}{6} \times \frac{1}{6} = \frac{6}{36} + \frac{5}{36} = \frac{11}{36}$
 
 This approach reasons through the ways events can happen without listing all possibilities.
 
