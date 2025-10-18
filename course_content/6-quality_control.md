@@ -101,4 +101,3 @@ These statistical methods will be covered in later lectures.
 ## Notes
 
 - The hypergeometric distribution is a discrete probability distribution that models the probability of obtaining a specific number of "successes" in a fixed number of draws from a finite population, where each draw is made without replacement.
-- The hypergeometric distribution is similar to the binomial distribution, but the key difference is that the binomial assumes sampling with replacement (probabilities remain constant), while the hypergeometric assumes sampling without replacement
