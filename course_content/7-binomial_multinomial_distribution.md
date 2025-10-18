@@ -11,16 +11,12 @@
 
 ## Multinomial coefficient: dividing into multiple groups
 - When $n$ objects are partitioned into $R$ classes of sizes $N_1, N_2, \ldots, N_R$ with $N_1+\cdots+N_R=n$ and order not important, the count is the multinomial coefficient  
-  $$
-  \binom{n}{N_1, N_2, \ldots, N_R} = \frac{n!}{N_1!\,N_2!\,\cdots\,N_R!}.
-  $$  
+  $$\binom{n}{N_1, N_2, \ldots, N_R} = \frac{n!}{N_1!\,N_2!\,\cdots\,N_R!}.$$  
 - Interpretation: this generalizes “dealing one hand” to “dealing multiple hands”; e.g., splitting a deck among several players or allocating items into several labeled groups.  
 
 ## Derivation by successive choices
 - Build the partition sequentially: first choose $N_1$ items from $n$, then $N_2$ from the remaining $n-N_1$, then $N_3$ from $n-N_1-N_2$, and so on, yielding  
-  $$
-  \binom{n}{N_1}\,\binom{n-N_1}{N_2}\,\binom{n-N_1-N_2}{N_3}\cdots \binom{n-\sum_{i=1}^{R-1}N_i}{N_R}.
-  $$  
+  $$\binom{n}{N_1}\,\binom{n-N_1}{N_2}\,\binom{n-N_1-N_2}{N_3}\cdots \binom{n-\sum_{i=1}^{R-1}N_i}{N_R}.$$  
 - Writing each binomial as factorials and canceling the telescoping terms leaves exactly $\frac{n!}{N_1!\cdots N_R!}$; note the final remainder is $0! = 1$ because $N_1 + \cdots + N_R = n$.  
 
 ## Practical uses and prompts
