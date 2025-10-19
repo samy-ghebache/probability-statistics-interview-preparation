@@ -19,9 +19,7 @@ Conditional probability is a fundamental concept in probability theory. It allow
 ## Conditional Probability Formula
 If we know event B happened, we restrict ourselves to the subset B. The probability of A given B is:
 
-$
-P(A|B) = \frac{P(A \cap B)}{P(B)}
-$
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$
 
 - **$P(A \cap B)$**: Probability that both A and B happen (the intersection).
 - **$P(B)$**: Probability that B happens.
