@@ -61,12 +61,7 @@ We want: $P(\text{disease} | \text{positive})$
 
 Plug into Bayes' theorem:
 $P(\text{disease} | \text{positive}) = \frac{P(\text{positive} | \text{disease}) \cdot P(\text{disease})}{P(\text{positive} | \text{disease}) \cdot P(\text{disease}) + P(\text{positive} | \text{no disease}) \cdot P(\text{no disease})}$
-$
-= \frac{0.99 \times 0.001}{0.99 \times 0.001 + 0.01 \times 0.999}
-$
-$
-= \frac{0.00099}{0.00099 + 0.00999} = \frac{0.00099}{0.01098} \approx 0.09
-$
+$= \frac{0.99 \times 0.001}{0.99 \times 0.001 + 0.01 \times 0.999}$$= \frac{0.00099}{0.00099 + 0.00999} = \frac{0.00099}{0.01098} \approx 0.09$
 
 So, even with a 99% accurate test, if the disease is rare, a positive test result only means about a 9% chance of actually having the disease. This highlights the importance of considering base rates and why follow-up tests are often needed.
 
