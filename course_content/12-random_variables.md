@@ -66,5 +66,3 @@ A **probability distribution** summarizes the probabilities for all possible val
 - The CDF is another useful function related to random variables.
 
 ***
-
-All formulas are written as requested. If you want more examples or tailored notes, let me know!
