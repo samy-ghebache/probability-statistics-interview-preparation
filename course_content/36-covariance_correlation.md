@@ -1,5 +1,3 @@
-I understand. I'll rewrite the notes with all formulas using single dollar signs with no spaces (like $formula$) instead of double dollar signs.
-
 # Covariance and Correlation
 
 ## Introduction
